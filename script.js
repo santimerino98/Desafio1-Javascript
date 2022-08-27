@@ -19,6 +19,11 @@ if(puntos>0 && puntos<=100){
                     if(score>=40 && score<70){
                         alert('Puntuación regular, falta mejorar');
                     }
+                    else{
+                        if(puntos>=0 && puntos<=100){
+                            alert('Valor no permitido');
+                        }
+                    }
                 }
             }
         }
