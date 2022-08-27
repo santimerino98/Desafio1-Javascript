@@ -1,7 +1,7 @@
 let score = prompt ('Ingrese la puntuación lograda');
 if(score>0 && score<=100){
     while(score=true){
-    
+        let score = prompt ('Ingrese la puntuación lograda');
         if (score == 100){
             alert('Puntuación máxima, ¡felicidades!');
         }
