@@ -1,6 +1,6 @@
 let puntos = prompt ('Ingrese la puntuación lograda');
 if(puntos>0 && puntos<=100){
-    while(puntos=true){
+    while(puntos>0 && puntos<=100){
         
         let score = prompt ('Ingrese la puntuación lograda')
 
@@ -23,4 +23,7 @@ if(puntos>0 && puntos<=100){
             }
         }
 }
+}
+else{
+    alert('Valor no permitido');
 }
